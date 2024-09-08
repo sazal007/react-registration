@@ -21,7 +21,7 @@ const ProgressBar: React.FC<ProgressBarProps> = ({ steps, currentStep }) => {
             }}
           />
         </div>
-        {steps.map((step, index) => (
+        {steps.map((index) => (
           <div
             key={index}
             className={`absolute w-[38px] h-[36px] rounded-full ${
