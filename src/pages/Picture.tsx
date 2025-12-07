@@ -29,7 +29,7 @@ const Picture = () => {
       <ProgressBar steps={[1, 2, 3, 4]} currentStep={3} />
       <div className="glassmorphism h-[514px]">
         <h1 className="text-3xl font-bold mb-6 text-center">
-          Set Your Profile Picture
+          Set Your Profile Picture updated
         </h1>
         <FormProvider {...methods}>
           <form onSubmit={methods.handleSubmit(onSubmit)}>
